@@ -1,0 +1,39 @@
+{
+  "name": "democracy-voucher",
+  "version": "0.1.0",
+  "description": "Looking at data from Seattle's \"democracy voucher\" program",
+  "main": "index.js",
+  "scripts": {
+    "commitmsg": "commit-msg-must-use-emoji",
+    "test": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecglassford/democracy-voucher.git"
+  },
+  "keywords": [
+    "campaign",
+    "finance",
+    "politics",
+    "data",
+    "visualization",
+    "visualization"
+  ],
+  "author": {
+    "name": "Alec Glassford",
+    "email": "glassford@cs.stanford.edu",
+    "url": "https://alecglassford.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecglassford/democracy-voucher/issues"
+  },
+  "homepage": "https://github.com/alecglassford/democracy-voucher#readme",
+  "devDependencies": {
+    "commit-msg-must-use-emoji": "^1.1.3",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.14.3"
+  }
+}
